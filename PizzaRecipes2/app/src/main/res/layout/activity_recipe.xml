@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/pizzaImageView"
+            android:layout_width="match_parent"
+            android:layout_height="370dp" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pizzaImageView"
+            android:layout_margin="5dp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/previewTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/titleTextView"
+            android:text="Preview"
+            android:textStyle="italic"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/constantMethodTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/previewTextView"
+            android:text="Method:"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/recipeBodyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/constantMethodTextView"
+            android:text="Recipe Body"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+</ScrollView>
